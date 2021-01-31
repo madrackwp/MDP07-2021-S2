@@ -185,7 +185,7 @@ public class Node implements Comparable {
             return up;
         else if (direction == Direction.DOWN && down != null)
             return down;
-        else if (direction == Direction.LEFT & left != null)
+        else if (direction == Direction.LEFT && left != null)
             return left;
         else if (direction == Direction.RIGHT && right != null)
             return right;
@@ -197,7 +197,7 @@ public class Node implements Comparable {
             return up;
         else if (face == Facing.DOWN && down != null)
             return down;
-        else if (face == Facing.LEFT & left != null)
+        else if (face == Facing.LEFT && left != null)
             return left;
         else if (face == Facing.RIGHT && right != null)
             return right;
